@@ -78,3 +78,51 @@ body {
   text-align: center;
   padding: 0.5rem 0;
 }
+
+/* Banner 2 */
+
+.banner2 {
+  display: flex;
+}
+
+.photo21 {
+  height: 37.875rem;
+  margin: 2rem 1.5rem;
+  background-image: url("../../resources/images/information-main.jpg");
+  background-repeat: no-repeat;
+}
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 60%;
+}
+
+.leftPanelText h1, .leftPanelText p {
+  margin: 2rem 0 0 1.5rem;
+}
+
+.sidePanel2 {
+ display: flex;
+ flex-direction: column;
+ width: 40%;
+}
+
+.sidePanel2 .box {
+  display: flex;
+  height: auto;
+}
+
+.sidePanel2 #box1 {
+  margin-top: 1rem;
+}
+
+.sidePanel2 .boxImg {
+ padding: 1rem 0 0 1rem; 
+  width: 35%;
+}
+
+.sidePanel2 .boxText {
+  width: 65%;
+}
