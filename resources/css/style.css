@@ -103,15 +103,23 @@ body {
   margin: 2rem 0 0 1.5rem;
 }
 
+.leftPanelText p {
+  margin-bottom: 2rem;
+}
+
 .sidePanel2 {
  display: flex;
  flex-direction: column;
  width: 40%;
+ border-left: 1px solid grey;
 }
 
 .sidePanel2 .box {
   display: flex;
-  height: auto;
+  height: 30%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
 }
 
 .sidePanel2 #box1 {
@@ -119,10 +127,31 @@ body {
 }
 
 .sidePanel2 .boxImg {
- padding: 1rem 0 0 1rem; 
+ margin: 1rem 1rem;
   width: 35%;
+  height: auto;
 }
 
 .sidePanel2 .boxText {
   width: 65%;
 }
+
+.sidePanel2 #boxImg1 {
+  background-image: url("../../resources/images/information-orientation.jpg");
+}
+
+.sidePanel2 #boxImg2 {
+
+  background-image: url("../../resources/images/information-campus.jpg");
+}
+
+.sidePanel2 #boxImg3 {
+  background-image: url("../../resources/images/information-guest-lecture.jpg");
+}
+
+#box3 {
+  background-color: grey;
+}
+
+
+/* Banner 3 */
