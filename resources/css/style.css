@@ -155,3 +155,54 @@ body {
 
 
 /* Banner 3 */
+
+
+.banner3 {
+  background-color: grey;
+}
+
+.banner3 h3 {
+  font-size: 1rem;
+}
+
+.banner3 p {
+  font-size: 0.75rem;
+}
+
+.banner3 .row1, .banner3 .row2 {
+  display: flex;
+}
+
+.tiles {
+  margin: 2rem 4.5rem;
+  background-color: grey;
+}
+
+.tile {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.row1, .row2 {
+  display: flex;
+}
+
+.row1 {
+  margin-bottom: 2rem;
+}
+
+.tileText {
+  margin-left: 1rem;
+}
+
+
+#tile1, #tile2, #tile4, #tile5 {
+  margin-right: 2rem;
+}
+
+.tile img {
+
+}
