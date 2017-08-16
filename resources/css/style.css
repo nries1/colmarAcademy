@@ -159,10 +159,17 @@ body {
 
 .banner3 {
   background-color: grey;
+  padding-bottom: 2rem;
 }
 
 .banner3 h3 {
   font-size: 1rem;
+}
+
+.banner3 h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 2rem;
 }
 
 .banner3 p {
@@ -171,10 +178,11 @@ body {
 
 .banner3 .row1, .banner3 .row2 {
   display: flex;
+  justify-content: center;
 }
 
 .tiles {
-  margin: 2rem 4.5rem;
+  margin: 2rem 4.5rem 0 4.5rem;
   background-color: grey;
 }
 
@@ -182,7 +190,8 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-
+  width: 18.375rem;
+  height: 19rem;
 }
 
 
@@ -196,6 +205,7 @@ body {
 
 .tileText {
   margin-left: 1rem;
+  height: 55%;
 }
 
 
@@ -203,6 +213,44 @@ body {
   margin-right: 2rem;
 }
 
-.tile img {
+.banner3 .tile img {
+  height: 45%;
 
+}
+
+
+/* Banner 4 */
+
+.banner4 video {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.banner4 h3 {
+  margin: 1.5rem 0rem 0.5rem;
+}
+
+.banner4 h1 {
+  text-align: center;
+}
+
+.panels {
+  display: flex;
+}
+
+.banner4 .leftPanel {
+  display: flex;
+  flex-direction: column;
+/*  width: 50%; */
+  margin-left: 1.5rem;
+}
+
+.banner4 .leftPanel p {
+  margin-bottom: 1.5rem;
+}
+
+
+.banner4 #box1 {
+  background-color: grey;
 }
