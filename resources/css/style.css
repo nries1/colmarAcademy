@@ -30,7 +30,7 @@ body {
 
 .navBar nav span {
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 #signIn {
@@ -53,7 +53,7 @@ body {
 .banner1 .photo1 {
   height: 51rem;
   width: 60%;
-  margin: 0 1.5rem 2rem 1.5rem;
+  margin: 2rem 1.5rem;
   background-image: url("../../resources/images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -77,6 +77,10 @@ body {
   width: 100%;
   text-align: center;
   padding: 0.5rem 0;
+}
+
+.button p {
+  margin: 0;
 }
 
 /* Banner 2 */
@@ -244,13 +248,27 @@ body {
   flex-direction: column;
 /*  width: 50%; */
   margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .banner4 .leftPanel p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
+.Banner4 .leftPanel h3 {
+  margin: 2rem 0 0.5rem 0;
+}
 
 .banner4 #box1 {
   background-color: grey;
+
+}
+
+.banner4 .boxContent {
+  display: flex;
+}
+
+.banner4 .rightPanel img {
+  padding: 1rem 0 1rem 1rem;
+  margin-right: 1rem;
 }
