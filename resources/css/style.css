@@ -1,7 +1,294 @@
+/* CSS for Small Devices */
+@media only screen and (max-width: 735px) {
+  .navBar {
+    display: none;
+  }
+
+  html {
+    font-size: 16px;
+    font-family: Helvetica;
+  }
+
+
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Navigation Bar */
+
+.mobileNavBar {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+}
+
+
+  /* First Banner */
+
+  .banner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+  }
+
+  .banner1 .photo1 {
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-image: url("../../resources/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .sidePanel1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .sidePanel1 h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .button p {
+    margin: 0;
+  }
+
+  /* Banner 2 */
+
+  .banner2 {
+    display: flex;
+  }
+
+  .photo21 {
+    height: 37.875rem;
+    margin: 2rem 1.5rem;
+    background-image: url("../../resources/images/information-main.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .leftPanel {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    width: 60%;
+  }
+
+  .leftPanelText h1, .leftPanelText p {
+    margin: 2rem 0 0 1.5rem;
+  }
+
+  .leftPanelText p {
+    margin-bottom: 2rem;
+  }
+
+  .sidePanel2 {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   border-left: 1px solid grey;
+  }
+
+  .sidePanel2 .box {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    align-items: center;
+  }
+
+  .sidePanel2 #box1 {
+    margin-top: 1rem;
+  }
+
+  .sidePanel2 .boxImg {
+   margin: 1rem 1rem;
+    width: 80%;
+    height: 60%;
+  }
+
+  .sidePanel2 .boxText {
+    width: 65%;
+
+  }
+
+  .sidePanel2 #boxImg1 {
+    background-image: url("../../resources/images/information-orientation.jpg");
+  }
+
+  .sidePanel2 #boxImg2 {
+
+    background-image: url("../../resources/images/information-campus.jpg");
+  }
+
+  .sidePanel2 #boxImg3 {
+    background-image: url("../../resources/images/information-guest-lecture.jpg");
+  }
+
+  #box3 {
+    background-color: grey;
+  }
+
+
+  /* Banner 3 */
+
+
+  .banner3 {
+    background-color: grey;
+    padding-bottom: 2rem;
+  }
+
+  .banner3 h3 {
+    font-size: 1rem;
+  }
+
+  .banner3 h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 2rem;
+  }
+
+  .banner3 p {
+    font-size: 0.75rem;
+  }
+
+  .banner3 .row1, .banner3 .row2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tiles {
+    margin: 2rem 4.5rem 0 4.5rem;
+    background-color: grey;
+  }
+
+  .tile {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 18.375rem;
+    height: 19rem;
+  }
+
+
+  .row1, .row2 {
+    display: flex;
+  }
+
+  .row1 {
+    margin-bottom: 2rem;
+  }
+
+  .tileText {
+    margin-left: 1rem;
+    height: 55%;
+  }
+
+
+  #tile1, #tile2, #tile4, #tile5 {
+    margin-right: 2rem;
+  }
+
+  .banner3 .tile img {
+    height: 45%;
+
+  }
+
+
+  /* Banner 4 */
+
+  .banner4 video {
+    display: block;
+    width: 60%;
+    height: auto;
+  }
+
+  .banner4 h3 {
+    margin: 1.5rem 0rem 0.5rem;
+  }
+
+  .banner4 h1 {
+    text-align: center;
+  }
+
+  .panels {
+    display: flex;
+  }
+
+  .banner4 .leftPanel {
+    display: flex;
+    flex-direction: column;
+  /*  width: 50%; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .banner4 .leftPanel p {
+    margin-bottom: 2rem;
+  }
+
+  .Banner4 .leftPanel h3 {
+    margin: 2rem 0 0.5rem 0;
+  }
+
+  .banner4 #box1 {
+    background-color: grey;
+
+  }
+
+  .banner4 .boxContent {
+    display: flex;
+  }
+
+  .banner4 .rightPanel img {
+    padding: 1rem 0 1rem 1rem;
+    margin-right: 1rem;
+  }
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 1rem 1.5rem 4rem 1.5rem;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+}
+
+
+
+
+/* -------------------- CSS for Large Screens --------------------- */
+
+@media only screen and (min-width: 736px) {
+  .mobileNavBar {
+    display: none;
+    }
+
+
+
 html {
   font-size: 16px;
   font-family: Helvetica;
 }
+
+
 
 body {
   padding: 0;
@@ -271,4 +558,19 @@ body {
 .banner4 .rightPanel img {
   padding: 1rem 0 1rem 1rem;
   margin-right: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  padding: 1rem 1.5rem 4rem 1.5rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
 }
